@@ -32,6 +32,12 @@ variable "resource_group_name" {
   default = ""
 }
 
+variable "vm_size" {
+  type = string
+  default = "Standard_D1_v2"
+}
+
+
 /**
 "East Asia",
 "Southeast Asia",
