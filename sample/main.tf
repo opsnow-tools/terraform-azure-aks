@@ -1,7 +1,7 @@
 
 
 module "aks" {
-    source = "git::https://github.com/opsnow-tools/terraform-azure-aks.git//modules"
+    source = "git::https://github.com/opsnow-tools/terraform-azure-aks.git//modules/aks"
 
     cluster_name = "mycluster"
 
