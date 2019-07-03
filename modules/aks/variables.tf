@@ -36,7 +36,9 @@ variable "vm_size" {
   type = string
   default = "Standard_D1_v2"
 }
-
+variable "vmss_enable" {
+  default = false
+}
 
 /**
 "East Asia",

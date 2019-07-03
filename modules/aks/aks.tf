@@ -25,6 +25,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
     vm_size         = "${var.vm_size}"
     os_type         = "Linux"
     os_disk_size_gb = 30
+    type            = var.vmss_enable ? "VirtualMachineScaleSets" : "AvailabilitySet"
   }
 
   service_principal {

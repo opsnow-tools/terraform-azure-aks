@@ -8,6 +8,7 @@ module "aks" {
     location = "East US"
     dns_prefix = "prefix"
     agent_count = 1
+    vmss_enable = false
 
     client_id = "a000000-d000-0000-0000-d0a0a0a0a0a0a0"
     client_secret = "a000000-d000-0000-0000-d0a0a0a0a0a0a0"
