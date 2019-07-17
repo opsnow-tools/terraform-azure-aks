@@ -1,4 +1,4 @@
-# terraform-azure-aks
+# valve-aks
 
 AKS 클러스터를 구성하기 위한 terraform 스크립트 템플릿을 제공합니다.
 
